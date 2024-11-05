@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css overview</title>
+    <style>
+      h1 {
+        color: rgb(245, 217, 9);
+        background-color: rgb(208, 173, 240);
+        text-align: center;
+      }
+      #test {
+        color: cornflowerblue;
+      }
+      .green {
+        color: rgb(95, 183, 95);
+      }
+    </style>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>CSS概述</h1>
+
+    <h2 id="test">一、CSS术语</h2>
+
+    <h3 class="green">1.1选择器</h3>
+    <h4>1.1.1ID选择器</h4>
+    <h4>1.1.2元素选择器</h4>
+    <h4>1.1.3类选择器</h4>
+    <h3 class="green">1.2声明块</h3>
+    <p>出现在大括号中，每一个声明用 ；结束，每一个声明表示一条样式规则</p>
+
+    <h2 style="color: cornflowerblue">二、CSS概述代码写在哪</h2>
+    <h3 class="green2">2.1内部样式表</h3>
+    <p>书写在style元素中，通常写在head里，为了让浏览器先读到，避免页面闪烁</p>
+    <h3 class="green2">2.2内联样式表（元素样式表）</h3>
+    <p>写在元素的style属性中</p>
+    <h3 class="green2">2.3外部样式表</h3>
+    <p>写在独立的css文件中</p>
+    <p>可解决多页面样式重复问题</p>
+    <p>有利于浏览器缓存，提高页面相应速度</p>
+    <p>有利于代码分离（HTML和CSS），更容易阅读和维护</p>
+  </body>
+</html>
