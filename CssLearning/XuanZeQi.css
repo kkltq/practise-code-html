@@ -1,0 +1,49 @@
+/* *{color: blue;} */
+/* 通配符选择器，选中所有具有该属性的元素 */
+/* [href]{color: rgb(4, 235, 120);} */
+
+/* 属性选择器 */
+/* []选择特定属性，可以选择属性值为xx，属性包含xx，属性以xx结尾，等等 */
+[href="https://www.bilibili.com/"]{color: yellow;}
+[href$="acfun.cn/"]{color:green;}
+
+/* 伪类选择器 */
+/* 使用： */
+/* link“：” 链接未被访问 */
+/* visited：链接被访问后 */
+/* hover：鼠标悬停状态 */
+/* active：鼠标点击下去的状态 */
+/* 爱恨法则：love and hate 顺序才能正常运行 */
+a:link{color: darkviolet;}
+a:visited{color: darkorange;}
+a:hover{color: crimson;}
+a:active{color: green;}
+
+/* 伪元素选择器 */
+/* 用来选中并生成某个元素内部的第一个子元素或最后一个子元素 */
+/* 使用 “：：” */
+/* before */
+/* after */
+span::before{
+  content: "《";color: aqua;
+}
+span::after{
+  content: "》";color: aqua
+}
+
+/* 选择器的组合 */
+/* 并且：直接写，中间啥也不加 */
+/* 后代选择器：加空格 */
+div li{color: #008c8c;}
+/* 子元素选择器：用“>” */
+div>p{color: deeppink;}
+/* 相邻兄弟元素(后面出现的第一个兄弟元素)：用“+” */
+.special{color: red;}
+.special+li{color:green;}
+/* 兄弟元素（后面出现的所有兄弟元素）：用 “～” */
+.special2{color: blue;}
+.special2~li{color: gold;}
+
+/* 选择器的并列 */
+/* 多个选择器，用逗号“，”分隔 */
+h1,h2{color: darkorange;}
