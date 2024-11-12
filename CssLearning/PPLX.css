@@ -1,0 +1,97 @@
+
+/* 来自PPLX生成的 */
+/* 通用样式 */
+body {
+  font-family: Arial, sans-serif; /* 设置字体 */
+  background-color: #f4f4f4; /* 背景颜色 */
+  color: #333; /* 字体颜色 */
+  margin: 0; /* 清除默认边距 */
+  padding: 0; /* 清除默认内边距 */
+}
+
+/* 标题样式 */
+h1 {
+  background: #2B6695;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px rgba(10, 10, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "微软雅黑", "宋体", "黑体", Arial;
+  font-size: 18px;
+  font-weight: bold;
+  height: 25px;
+  line-height: 25px;
+  margin: 18px 0 !important;
+  padding: 8px 0 5px 5px;
+  text-shadow: 2px 2px 3px #222222;
+}
+
+h2 {
+  background: #2B6600;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px rgba(10, 10, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "微软雅黑", "宋体", "黑体", Arial;
+  font-size: 15px;
+  font-weight: bold;
+  height: 24px;
+  line-height: 23px;
+  margin: 12px 0 !important;
+  padding: 5px 0 5px 10px;
+}
+
+h3 {
+  background: #5B9600;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px rgba(10, 10, 0, 0.5);
+  color: #FFFFFF;
+  font-family: "微软雅黑", "宋体", "黑体", Arial;
+  font-size: 13px;
+  font-weight: bold;
+  height: 24px;
+  line-height: 20px;
+  margin: 12px 0 !important;
+  padding: 5px 0 5px 10px;
+}
+/* 段落样式 */
+p {
+  line-height: 1.6; /* 行高 */
+  margin: 20px 0; /* 上下边距 */
+}
+/* 无序列表样式 */
+ul {
+  list-style-type: disc; /* 设置为实心圆点 */
+  padding-left: 20px; /* 左侧内边距 */
+  margin: 0; /* 清除默认外边距 */
+}
+
+ul.square {
+  list-style-type: square; /* 设置为实心方块 */
+}
+
+ul.circle {
+  list-style-type: circle; /* 设置为空心圆点 */
+}
+
+/* 有序列表样式 */
+ol {
+  list-style-type: decimal; /* 使用数字标记 */
+  padding-left: 20px; /* 左侧内边距 */
+  margin: 0; /* 清除默认外边距 */
+}
+
+ol.upper-alpha {
+  list-style-type: upper-alpha; /* 使用大写字母标记 */
+}
+
+ol.lower-alpha {
+  list-style-type: lower-alpha; /* 使用小写字母标记 */
+}
+/* 链接样式 */
+a {
+  color: #3498db; /* 链接颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+a:hover {
+  text-decoration: underline; /* 悬停时添加下划线 */
+}
