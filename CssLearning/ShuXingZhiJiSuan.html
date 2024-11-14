@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>属性值计算</title>
+    <style>
+      .container {
+        color: #008c8c;
+      }
+      a {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ol>
+        属性值计算
+        <li>确认声明值</li>
+        <li>层叠冲突</li>
+        <li>使用继承</li>
+        <li>使用默认值</li>
+      </ol>
+      <img
+        title="属性值计算过程"
+        src="../ShuXingJiSuanGuoCheng.png"
+        alt="这是一张属性值计算过程的截图"
+      />
+      <br />
+      <a
+        target="_blank"
+        href="https://www.bilibili.com/video/BV1yx411d7Rc?spm_id_from=333.788.videopod.episodes&vd_source=451f19268d10bf5aeda4633d53701825&p=24"
+        >属性值计算过程</a
+      >
+      <p>
+        a元素不继承，因为有浏览器默认声明，在前两步就已经有属性值了，不会走到第三步了。想要a元素继承可以使用inherit手动强制继承
+      </p>
+      <img
+        title="两个特殊的css取值"
+        src="../SpecialCssValue.png"
+        alt="这是一张css特殊取值的截图"
+      />
+    </div>
+  </body>
+</html>
